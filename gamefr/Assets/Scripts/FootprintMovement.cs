@@ -8,6 +8,7 @@ public class FootprintMovement : MonoBehaviour
     public float smoothTime = 0.3f;
     public Vector3 offset;
     private Vector3 velocity = Vector3.zero;
+    
 
     void LateUpdate()
     {

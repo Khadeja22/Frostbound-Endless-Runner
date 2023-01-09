@@ -16,12 +16,13 @@ public class BasicMovement : MonoBehaviour
         //if you want to get the player to move to the left (back) then take out the if/else container and delete everything under else :-)
         if(Input.GetKey(KeyCode.RightArrow))
         {
-        Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), -0.25f, 0.0f);
+        Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), -0.5f, 0.0f);
         transform.position = transform.position + horizontal * Time.deltaTime;
         }
         else 
         {
             transform.position = transform.position;
         }
+
     }
 }
