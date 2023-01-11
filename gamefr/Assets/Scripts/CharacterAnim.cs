@@ -11,10 +11,10 @@ public class CharacterAnim : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    void FixedUpdate(){
+    /*void FixedUpdate(){
         Vector3 addPos = new Vector3(0, Mathf.Clamp(transform.position.y - 0.0002f, 0, int.MaxValue), 0);
         transform.position += addPos;
-    }
+    }*/
    
     void Update(){
         //running to the right
@@ -33,4 +33,8 @@ public class CharacterAnim : MonoBehaviour
             anim.SetTrigger("Jump");
         }
     }
+
+
+
+    
 }
