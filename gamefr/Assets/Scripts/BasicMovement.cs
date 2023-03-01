@@ -13,7 +13,7 @@ public class BasicMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        //if you want to get the player to move to the left (back) then take out the if/else container and delete everything under else :-)
+        //if you want to get the player to move to the left (back) then take out the if/else container and delete everything under else
         if(Input.GetKey(KeyCode.RightArrow))
         {
         Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), -0.5f, 0.0f);
