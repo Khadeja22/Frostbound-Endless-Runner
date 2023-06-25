@@ -13,5 +13,5 @@ space bar to jump
 
 Installation
 
-To play Winter Run, download the Unity Project onto your local and hit play
+To play Winter Run, download the GameApp folder in this repository locally, then open the .exe file to play!
 
