@@ -7,11 +7,10 @@ You run endlessly on a snowy surface with a scenic alpine view in the background
 
 How to Play
 
-Use:
-right arrow to move forward
+Use right arrow to move forward
 space bar to jump
 
 Installation
 
-To play Winter Run, download the GameApp folder in this repository locally, then open the .exe file to play!
+To play Winter Run, download the zip for this repository, then open the gamefr Unity (.exe) file to play!
 
