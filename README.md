@@ -12,5 +12,5 @@ space bar to jump
 
 Installation
 
-To play Winter Run, download the zip for this repository, then open the gamefr Unity (.exe) file.
+To play Winter Run, download the zip for this repository. In the GameApp folder, open the gamefr Unity (.exe) file.
 
